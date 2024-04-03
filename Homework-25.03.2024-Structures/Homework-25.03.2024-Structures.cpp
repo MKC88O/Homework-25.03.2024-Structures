@@ -78,9 +78,9 @@ struct Check
 
 int main() {
     Check check;
-    check.addProducts("Mivina", 200, 2, 10);
-    check.addProducts("Pivko", 50, 5, 0);
-    check.addProducts("Hleb", 1, 1.5, 0);
+    check.addProducts("Mivina", 200, 10, 10);
+    check.addProducts("Pivko", 50, 40, 0);
+    check.addProducts("Hleb", 1, 25, 0);
     check.addProducts("Nescafe GOLD", 1, 250, 20);
     check.addProducts("Paket ATB", 1, 1.5, 0);
     check.PrintCheck();
